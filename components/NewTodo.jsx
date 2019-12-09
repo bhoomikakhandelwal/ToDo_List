@@ -20,10 +20,10 @@ export default class NewTodo extends React.Component {
           <form onSubmit={this.create.bind(this)}>
             <input type="text" ref="newTodoText" className="input-text" />{" "}
             <button
-              class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored button-add"
+              className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored button-add"
               type="submit"
             >
-              <i class="material-icons">add</i>
+              <i className="material-icons">add</i>
             </button>
           </form>
         </div>
